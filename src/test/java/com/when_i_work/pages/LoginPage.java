@@ -1,16 +1,11 @@
 package com.when_i_work.pages;
 
-import com.when_i_work.utilities.Driver;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+
 
 public class LoginPage extends BasePage{
-
-   // public LoginPage() {
-   //    PageFactory.initElements(Driver.getDriver(),this);
-   // }
 
     public static final String LOGIN = "Log in";
     public static final String LOGIN_WITH_GOOGLE = "Log in with Google";
